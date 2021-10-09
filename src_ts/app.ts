@@ -13,7 +13,8 @@ function generateError(message: string, code: number): never {
   throw {message: message, errorCode: code};
 }
 
-generateError('An eror occured', 500);
+// generateError('An eror occured', 500);
+console.log('app.js is connceted')
 //this is a utility funciton that is pretty common 
 //this function returns "never"
 //becuase throw error "crashed" the code so the function nver returns anything
